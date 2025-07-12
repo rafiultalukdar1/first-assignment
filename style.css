@@ -264,3 +264,147 @@ button:hover {
     color: #B3B3B3;
     font-family: var(--interFont);
 }
+
+
+/*=== focus section start here ===*/
+
+.focus-section {
+    background: #F5F8FF;
+}
+
+.focus-area {
+    padding: 71px 70px;
+    background: #fff;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.focus-area h2 {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.focus-area p {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #00000080;
+}
+
+.focus-area button {
+    margin-top: 20px;
+}
+
+.focus-area img {
+    max-width: 840px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+/*=== newsletter section start here ===*/
+
+.newsletter-section {
+    padding-top: 165px;
+    padding-bottom: 85px;
+    background: #F5F8FF;
+}
+
+.newsletter-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.newsletter-left {
+    max-width: 528px;
+}
+
+.newsletter-left h2 {
+    color: #000;
+    font-size: 97px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.newsletter-right {
+    max-width: 497px;
+    width: 100%;
+}
+
+.newsletter-right label {
+    display: block;
+    color: #000;
+    font-family: var(--interFont);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+.newsletter-right input {
+    margin-bottom: 20px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: var(--interFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 100%;
+}
+
+.newsletter-right input::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: var(--interFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.newsletter-right input:focus {
+    border-color: var(--primaryColor);
+    outline: none;
+}
+
+.newsletter-right textarea {
+    margin-bottom: 20px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: var(--interFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 100%;
+    min-height: 135px;
+}
+
+.newsletter-right textarea::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: var(--interFont);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.newsletter-right textarea:focus {
+    border-color: var(--primaryColor);
+    outline: none;
+}
+
+.newsletter-right button {
+    padding: 19px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-right button:hover {
+    transform: initial;
+}
