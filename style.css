@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --interFont: "Inter", sans-serif;
+    --primaryColor: #4E47FF;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header,
+nav,
+main,
+section,
+footer,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+form,
+label,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*=== Header Area Here ===*/
+
+.header-area {
+    background: url(images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 52px 0;
+}
+
+.nav-area a {
+    font-size: 34px;
+    font-weight: 900;
+    font-family: var(--interFont);
+    color: var(--primaryColor);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-area a span {
+    color: #f7a102;
+}
+
+button {
+    padding: 12px 36px;
+    background: var(--primaryColor);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #E2BE1C;
+    color: #000;
+    transform: scale(1.1);
+}
+
+.banner-section {
+    padding: 155px 0;
+    text-align: center;
+}
+
+.banner-section h2 {
+    color: #252432;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-section button {
+    margin-top: 38px;
+}
+
+
